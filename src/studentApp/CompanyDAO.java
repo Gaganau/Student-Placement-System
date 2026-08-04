@@ -16,7 +16,7 @@ public class CompanyDAO {
             ps.setDouble(3, pkg);
 
             ps.executeUpdate();
-            System.out.println("Company Added ✅");
+            System.out.println("Company Added");
 
         } catch (Exception e) {
             e.printStackTrace();
