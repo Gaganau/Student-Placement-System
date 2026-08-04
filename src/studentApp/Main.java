@@ -67,11 +67,11 @@ public class Main {
                     break;
 
                 case 6:
-                    System.out.println("Exiting... 👍");
+                    System.out.println("Exiting..");
                     System.exit(0);
 
                 default:
-                    System.out.println("Invalid choice ❌");
+                    System.out.println("Invalid choice");
             }
         }
     }
