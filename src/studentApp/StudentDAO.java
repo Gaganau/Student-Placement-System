@@ -15,7 +15,7 @@ public class StudentDAO {
             ps.setInt(2, marks);
 
             ps.executeUpdate();
-            System.out.println("Student Added ✅");
+            System.out.println("Student Added");
 
         } catch (Exception e) {
             e.printStackTrace();
