@@ -15,7 +15,7 @@ public class PlacementDAO {
             ps.setInt(2, companyId);
 
             ps.executeUpdate();
-            System.out.println("Placement Assigned ✅");
+            System.out.println("Placement Assigned");
 
         } catch (Exception e) {
             e.printStackTrace();
